@@ -2,7 +2,7 @@
 layout: post
 title: "Rifle in hand, HunterMate and animals that notice you"
 lead: "First-person rifle and HunterMate, animal coats, stances, gaits, senses and real collision."
-cover: 2026-11-02/rifle-aim.jpg
+cover: 2026-11-02/huntermate.jpg
 ---
 
 A big day. Here is what landed in the engine.

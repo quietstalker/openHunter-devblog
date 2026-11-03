@@ -11,7 +11,7 @@ header { padding-top: 28px; padding-bottom: 12px; }
 .intro { color: var(--dim); }
 .posts { list-style: none; padding: 0; display: grid; gap: 22px; }
 .posts a { display: block; background: var(--panel); border-radius: 10px; overflow: hidden; text-decoration: none; }
-.posts img { width: 100%; display: block; aspect-ratio: 16 / 7; object-fit: cover; }
+.posts img { width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: cover; }
 .posts .date, .posts .title, .posts .lead { display: block; padding: 0 18px; }
 .posts .date { color: var(--accent); font-size: 14px; padding-top: 14px; }
 .posts .title { font-size: 22px; font-weight: 700; }
