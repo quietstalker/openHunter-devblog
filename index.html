@@ -8,7 +8,7 @@ layout: default
 {% for post in site.posts %}
   <li>
     <a href="{{ site.baseurl }}{{ post.url }}">
-      {% if post.cover %}<img src="{{ site.baseurl }}/assets/img/{{ post.cover }}" alt="" loading="lazy">{% endif %}
+      {% if post.cover %}<img src="{{ site.baseurl }}/assets/img/{{ post.cover }}" alt="">{% endif %}
       <span class="date">{{ post.date | date: "%-d %B %Y" }}</span>
       <span class="title">{{ post.title }}</span>
       <span class="lead">{{ post.lead }}</span>
