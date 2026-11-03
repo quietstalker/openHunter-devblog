@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<section class="intro">
+  <p>openHunter is a new engine for theHunter Classic, written from scratch. It runs the game from the files of your own install. This is where we post what changed.</p>
+</section>
+<ul class="posts">
+{% for post in site.posts %}
+  <li>
+    <a href="{{ site.baseurl }}{{ post.url }}">
+      {% if post.cover %}<img src="{{ site.baseurl }}/assets/img/{{ post.cover }}" alt="" loading="lazy">{% endif %}
+      <span class="date">{{ post.date | date: "%-d %B %Y" }}</span>
+      <span class="title">{{ post.title }}</span>
+      <span class="lead">{{ post.lead }}</span>
+    </a>
+  </li>
+{% endfor %}
+</ul>

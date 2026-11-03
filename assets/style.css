@@ -1,0 +1,24 @@
+:root { --bg: #10292a; --panel: #163536; --text: #e9dcc0; --dim: #a9b5ad; --accent: #e8742a; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.65 "Noto Sans", system-ui, sans-serif; }
+a { color: var(--text); }
+header, main, footer { max-width: 860px; margin: 0 auto; padding: 0 20px; }
+header { padding-top: 28px; padding-bottom: 12px; }
+.brand { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; font: 26px "Noto Sans Mono", monospace; }
+.brand img { width: 44px; height: 44px; background: var(--text); border-radius: 50%; padding: 3px; }
+.brand b { font-weight: 900; }
+.brand em { font: italic 15px "Noto Sans", sans-serif; color: var(--dim); margin-left: 4px; }
+.intro { color: var(--dim); }
+.posts { list-style: none; padding: 0; display: grid; gap: 22px; }
+.posts a { display: block; background: var(--panel); border-radius: 10px; overflow: hidden; text-decoration: none; }
+.posts img { width: 100%; display: block; aspect-ratio: 16 / 7; object-fit: cover; }
+.posts .date, .posts .title, .posts .lead { display: block; padding: 0 18px; }
+.posts .date { color: var(--accent); font-size: 14px; padding-top: 14px; }
+.posts .title { font-size: 22px; font-weight: 700; }
+.posts .lead { color: var(--dim); padding-bottom: 16px; }
+article h1 { font-size: 32px; line-height: 1.2; margin: 4px 0 18px; }
+article h2 { font-size: 21px; margin: 34px 0 6px; }
+article img { width: 100%; border-radius: 8px; margin: 10px 0; display: block; }
+.date { color: var(--accent); font-size: 14px; margin: 0; }
+.back { margin: 40px 0; }
+footer { color: var(--dim); font-size: 13px; border-top: 1px solid #2a4a4a; margin-top: 40px; padding-top: 16px; padding-bottom: 40px; }
