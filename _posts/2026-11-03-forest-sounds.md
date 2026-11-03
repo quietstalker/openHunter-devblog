@@ -3,7 +3,7 @@ layout: post
 title: "The forest is not silent anymore"
 lead: "Each part of Hirschfelden now has its own background sound, read from your copy of the game."
 cover: 2026-11-03/forest-sound.jpg
-date: 2026-11-03 23:30:00 +0200
+date: 2026-11-03 20:00:00 +0200
 ---
 
 Until today the reserve was quiet between your own footsteps. Now the forest sounds alive.
